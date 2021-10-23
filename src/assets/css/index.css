@@ -1,0 +1,17 @@
+.button{
+    width: 200px;
+    height: 40px;
+    padding: 10 20px;
+    border: 0;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}

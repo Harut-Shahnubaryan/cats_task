@@ -1,0 +1,20 @@
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cats__block {
+  flex: 0 0 calc(33.3% - 30px);
+  text-align: center;
+  margin: 15px;  
+  height: 300px;
+  cursor: pointer;
+}
+
+.cats__img /* multicol test */ {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
